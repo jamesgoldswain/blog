@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+
 <div id="post">
 
 </div>
@@ -18,7 +18,7 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        $.get( "articles/feedback.md", function( data ) {
+        $.get( "articles/intro.md", function( data ) {
             var converter = new showdown.Converter(),
                 text      = '# hello, markdown!',
                 html      = converter.makeHtml(data);
