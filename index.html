@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-au">
+
+<head>
+    <title>James Goldswain - blog</title>
+    <link rel="shortcut icon" href="https://jamesgoldswain.net/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+    
+<div id="post">
+
+</div>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.get( "articles/feedback.md", function( data ) {
+            var converter = new showdown.Converter(),
+                text      = '# hello, markdown!',
+                html      = converter.makeHtml(data);
+            $('#post').html(html)
+        });
+
+    })
+</script>
+</body>
+
+</html>
