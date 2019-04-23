@@ -5,26 +5,66 @@
     <title>James Goldswain - blog</title>
     <link rel="shortcut icon" href="https://jamesgoldswain.net/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
     
+    @media screen and (max-width: 800px) {
+        img {
+            width: 100% !important;
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif; margin-left: auto; margin-right:auto; width:50%
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+        }
+    }
+
+    blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+        color: #ccc;
+        
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+    blockquote p {
+        display: inline;
+    }
+
+    #post hr { width: 25%; margin-top: 40px; margin-bottom: 40px;}
+    </style>
 </head>
 
 <body>
-
-<div id="post">
-
-</div>
+    
+    <header><h1>my blog</h1></header>
+    <hr />
+    <div id="post"></div>
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        $.get( "articles/intro.md", function( data ) {
+        $.get( "articles/feedback.md", function( data ) {
             var converter = new showdown.Converter(),
                 text      = '# hello, markdown!',
                 html      = converter.makeHtml(data);
             $('#post').html(html)
         });
-
     })
 </script>
 </body>
