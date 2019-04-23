@@ -57,12 +57,11 @@ The result gives us an idea of the uptake of the two forms of feedback, the
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/jamesgoldswain/images/ResponseGraph.png "Responses")
 
-[JS Fiddle for line chart](https://jsfiddle.net/jgoldswain/f2szgxun/13/ "JS Fiddle")
+<a href="https://jsfiddle.net/jgoldswain/f2szgxun/13/" target="_blank">JS Fiddle for line chart</a>
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/jamesgoldswain/images/WordTree.png "Word Tree")
 
-[JS Fiddle for word tree](https://jsfiddle.net/t2y9guqv "JS Fiddle")
-
+<a href="https://jsfiddle.net/t2y9guqv" target="_blank">JS Fiddle for word tree</a>
 
 <hr/>
 
