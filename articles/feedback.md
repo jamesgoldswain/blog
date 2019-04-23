@@ -55,11 +55,11 @@ Using these two series of time I was able to compile a line chart using [Googles
 
 The result gives us an idea of the uptake of the two forms of feedback, the 
 
-![alt text](/articles/images/ResponseGraph.png "Responses")
+![alt text](articles/images/ResponseGraph.png "Responses")
 
 [JS Fiddle for line chart](https://jsfiddle.net/jgoldswain/f2szgxun/13/ "JS Fiddle")
 
-![alt text](/articles/images/WordTree.png "Word Tree")
+![alt text](articles/images/WordTree.png "Word Tree")
 
 [JS Fiddle for word tree](https://jsfiddle.net/t2y9guqv "JS Fiddle")
 
