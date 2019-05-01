@@ -1,7 +1,7 @@
 
 # Effective Feedback
 
-Everyone needs feedback all the time to promote personal and professional growth. But what is the effective feedback? How do I get it and more importantly how do I measure it?
+Everyone needs feedback all the time to promote personal and professional growth. But what is effective feedback? How do I get it and more importantly how do I measure it?
 
 This is a blog post about my experiment to answer these questions and the outcomes from it
 
@@ -9,9 +9,9 @@ This is a blog post about my experiment to answer these questions and the outcom
 
 As a consultant at [Readify](https://readify.net "readify web site"), personally my tendency on client gigs is to focus on the job at hand, this is beneficial to the them however a lot of the time, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
 
-Unfortunately there's no tried and tested approach to successfully getting feedback, unless we ask :)
+Unfortunately, so far there's no obvious tried and tested approach to successfully getting feedback - so let's dig a little deeper :)
 
-At first, following a recent set of retros, a friend recommended the book ["Measure what matters"](https://www.whatmatters.com/book "Measure what matters book site"). Using this to establish my own personal set of [OKRs](https://en.wikipedia.org/wiki/OKR "Wikipedia OKR article"), I wanted to measure myself against objectives which had come out of prior retro feedbacks, these were:
+First, following a recent set of retros, a friend recommended the book ["Measure what matters"](https://www.whatmatters.com/book "Measure what matters book site"). Using this to establish my own personal set of [OKRs](https://en.wikipedia.org/wiki/OKR "Wikipedia OKR article"), I wanted to measure myself against objectives which had come out of prior retro feedbacks, these were:
 
 * _Influence_
 * _Amplifying the team_
@@ -32,9 +32,9 @@ The other would be a an exercise called a [Johari window](https://en.wikipedia.o
 
 The first consists of an publicly accessible anonymous office 365 form with seven questions, only two of which were required.
 
-The other is a custom developed implementation of the Johari window exercise which I developed during my [professional development perk here at Readify](https://stackoverflow.com/jobs/companies/readify "Readify's Stackoverflow page").
+The other is a custom developed implementation of the Johari window exercise which I developed during my [professional development perk here at Readify](https://stackoverflow.com/jobs/companies/readify "Readify's Stack Overflow page").
 
-Although, This hadn't had a lot of testing so was more experimental! I wanted to maximise the response of both of these exercises, but prioritise the feedback form as I assumed it had less chance of bugs / failures.
+Although, the latter hadn't had a lot of testing so was more experimental! I wanted to maximise the response of both of these exercises, but prioritise the feedback form as I assumed it had less chance of bugs / failures.
 
 During my final week of the engagement, I compiled an email internally, this was to make sure that there would be no issue with my feedback form going into spam folders, I then forwarded this email to my work email for following up later
 
@@ -48,7 +48,7 @@ My expectation was that I wouldn't get a high rate of responses the first time r
 
 I sent the email to fifteen people on the client site, these varied between product owners, UX, testers and developers.
 
-I received ten responses to the Microsoft Form, by default the information it provides is just average time to complete the form, however you can export the responses to Excel which contains timestamps on their completion.
+In total, I received ten responses to the Microsoft Form, by default the information it provides is just average time to complete the form, however you can export the responses to Excel which contains timestamps on their completion.
 
 My Johari Window app, posts the response to Amazons S3 service, which also stores a timestamp when the S3 object is stored.
 
