@@ -1,17 +1,15 @@
 
 # Effective Feedback
 
-Everyone needs feedback all the time to promote personal and professional growth. But what is effective feedback? How do we get it and more importantly how do we measure it?
+In order to promote personal and professional growth, it´s beneficial for everyone to get feedback. But what is effective feedback? How do we get it and more importantly how do we measure it?
 
-This is a blog post about an attempt to answer these questions as well as the outcomes from it
+This is a blog post about an attempt to answer these questions.
 
 ## Objectives
 
-As a consultant at [Readify](https://readify.net "readify web site"), personally my tendency on client gigs is to focus on the job at hand. This is beneficial to the them howeve, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
+As a consultant at [Readify](https://readify.net "readify web site"), on client gigs my tendency is to focus on the job at hand. This is beneficial to the them however, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
 
-Unfortunately, so far as I know, there's no obvious tried and tested approach to successfully getting feedback - so let's dig a little deeper :)
-
-First of all, to measure feedback itś beneficial to know what the criteria of what we are measuring
+In order to establish how to gather feedback we need to first know what criteria we are trying to measure
 
 At readify we use the mechanism of ["retros"](https://en.wikipedia.org/wiki/Retrospective#Software_development "Wikipedia retro article") which are used to determine areas of strenghths as well as ones where we need to focus for improvement
 
