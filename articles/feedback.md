@@ -1,17 +1,25 @@
 
 # Effective Feedback
 
-Everyone needs feedback all the time to promote personal and professional growth. But what is effective feedback? How do I get it and more importantly how do I measure it?
+Everyone needs feedback all the time to promote personal and professional growth. But what is effective feedback? How do we get it and more importantly how do we measure it?
 
-This is a blog post about my experiment to answer these questions and the outcomes from it
+This is a blog post about an attempt to answer these questions as well as the outcomes from it
 
 ## Objectives
 
-As a consultant at [Readify](https://readify.net "readify web site"), personally my tendency on client gigs is to focus on the job at hand, this is beneficial to the them however a lot of the time, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
+As a consultant at [Readify](https://readify.net "readify web site"), personally my tendency on client gigs is to focus on the job at hand. This is beneficial to the them howeve, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
 
-Unfortunately, so far there's no obvious tried and tested approach to successfully getting feedback - so let's dig a little deeper :)
+Unfortunately, so far as I know, there's no obvious tried and tested approach to successfully getting feedback - so let's dig a little deeper :)
 
-First, following a recent set of retros, a friend recommended the book ["Measure what matters"](https://www.whatmatters.com/book "Measure what matters book site"). Using this to establish my own personal set of [OKRs](https://en.wikipedia.org/wiki/OKR "Wikipedia OKR article"), I wanted to measure myself against objectives which had come out of prior retro feedbacks, these were:
+First of all, to measure feedback itś beneficial to know what the criteria of what we are measuring
+
+At readify we use the mechanism of ["retros"](https://en.wikipedia.org/wiki/Retrospective#Software_development "Wikipedia retro article") which are used to determine areas of strenghths as well as ones where we need to focus for improvement
+
+Following a recent set of these, a friend recommended the book ["Measure what matters"](https://www.whatmatters.com/book "Measure what matters book site").
+
+In it, it covers [OKRs](https://en.wikipedia.org/wiki/OKR "Wikipedia OKR article") which have been used by some of the top technology companies, I highly recommend reading more about them and the book, but briefly they are ´a framework for defining and tracking objectives and their outcomes´.
+
+Using this as inspiration, to establish my own personal set of OKRs, I wanted to measure myself against objectives which had come out of prior retro feedbacks, which were:
 
 * _Influence_
 * _Amplifying the team_
@@ -20,41 +28,40 @@ First, following a recent set of retros, a friend recommended the book ["Measure
 * _Confidence_
 * _Public Speaking_
 
-and secondly; I wanted to find out the most effective _format_ of obtaining this feedback and being able to benefit from it
+Additionally, I wanted to find out the most _effective format_ of gathering this feedback and being able to benefit from it, by evolving it
 
 <hr/>
 
 ## Approach
 
-I wanted to take a two pronged approach, one which had had some real use in the field, which I took inspiration from some internally previously-used methods within [Readify](https://readify.net "readify web site"), the company at which I work. 
+I wanted to take a two-pronged approach, the first; one which had had some real use in the field, which I took inspiration from some internally previously-used methods within my company 
 
-The other would be a an exercise called a [Johari window](https://en.wikipedia.org/wiki/Johari_window "Wikipedia Johari window article").
+This consisted of a publicly accessible form with multiple questions, only two of which were required.
 
-The first consists of an publicly accessible anonymous office 365 form with seven questions, only two of which were required.
+The second would be a an exercise called a [Johari window](https://en.wikipedia.org/wiki/Johari_window "Wikipedia Johari window article").
 
-The other is a custom developed implementation of the Johari window exercise which I developed during my [professional development perk here at Readify](https://stackoverflow.com/jobs/companies/readify "Readify's Stack Overflow page").
+This was custom developed implementation of the Johari window exercise which I developed during my [professional development perk here at Readify](https://stackoverflow.com/jobs/companies/readify "Readify's Stack Overflow page").
 
-Although, the latter hadn't had a lot of testing so was more experimental! I wanted to maximise the response of both of these exercises, but prioritise the feedback form as I assumed it had less chance of bugs / failures.
+I wanted to maximise the response of both of these exercises, but prioritise the feedback form as I assumed it had less chance of bugs / failures as it hadn't had a lot of real-world testing. (I´ĺl detail how this worked in a follow up post)
 
-During my final week of the engagement, I compiled an email internally, this was to make sure that there would be no issue with my feedback form going into spam folders, I then forwarded this email to my work email for following up later
+During my final week of the engagement, I compiled and sent an email using my email adrees supplied by the client, this was to ensure that there would be no issue with my request going into spam folders, I then forwarded it to my consultancy work email for following up later
 
-I kept the email light and provided a link to the Microsoft Form highlighting the fact that it was anonymous. I then provided a quick explanation that I was also doing a Johari window exercise and would appreciate this being completed too.
+The recipients of the email were 15 colleagues at the client site and varied between product owners, UX, testers and developers.
 
-My expectation was that I wouldn't get a high rate of responses the first time round and would need an follow up email.
+I kept the contents of the email light and provided a link to the form highlighting the fact that it was anonymous, I also provided a quick explanation that I was also doing a Johari window exercise and would appreciate this being completed too.
+
+My expectation was that I wouldn't get a high rate of responses the first time round and would need an follow up email and that the responses to the Johari excecise would have a lower rate
 
 <hr/>
 
 ## So ...
 
-I sent the email to fifteen people on the client site, these varied between product owners, UX, testers and developers.
 
-In total, I received ten responses to the Microsoft Form, by default the information it provides is just average time to complete the form, however you can export the responses to Excel which contains timestamps on their completion.
+In total, I received 10 responses (~70%) to the form and 7 (~47%) to the Johari window exercise
 
-My Johari Window app, posts the response to Amazons S3 service, which also stores a timestamp when the S3 object is stored.
+By using the timestamps on the responses these I was able to compile a line chart using [Googles fantastic chart offering](https://developers.google.com/chart/interactive/docs/gallery/linechart "Google's line chart")
 
-Using these two series of time I was able to compile a line chart using [Googles fantastic chart offering](https://developers.google.com/chart/interactive/docs/gallery/linechart "Google's line chart")
-
-The result gives us an idea of the uptake of the two forms of feedback. From reading the diagram, we can see that if we hadn't sent a follow up email we would have missed out on around sixty percent of the feedback.
+The result gives an idea of the uptake of the two forms of feedback. From the diagram, we can see that the sending a follow up email improved the responses of by around 60%.
 
 ![alt text](https://s3-ap-southeast-1.amazonaws.com/jamesgoldswain/images/ResponseGraph.png "Responses")
 
@@ -72,7 +79,7 @@ In terms of the Johari Window exercise, we can use the results to form a word tr
 
 ### Key results for objectives
 
-Now back to my key objectives. Some great feedback came out of the forms application, I was able to see that I had met my objectives using evidence of key results from the feedback provided:
+Now back to my objectives and the results. Some great feedback came out of the forms application, I was able to see that I had met my objectives using evidence of key results from the feedback provided:
 
 ### Influence
 
@@ -96,7 +103,7 @@ Now back to my key objectives. Some great feedback came out of the forms applica
 
 Interestingly, although the Johari window did contain some adjectives such as _confident_ its wasn't surfaced in the responses submitted, by default the exercise uses a standard set of words and it will be worthwhile revisiting this exercise after applying some lessons learnt to it
 
-I feel like for a first run of this experiment I definitely had a huge amount of learnings out of it, I enjoyed pulling the various instruments of feedback and how to measure results and am confident that it will be beneficial going forward.
+I feel like for a first run of this experiment I definitely had a decent return of learnings come out of it, I enjoyed pulling together the various instruments of feedback and to use them to measure results and am confident that it will be beneficial going forward.
 
 # Next >>
 
