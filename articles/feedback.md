@@ -1,5 +1,5 @@
 
-# Effective Feedback
+# Client Feedback
 
 In order to promote personal and professional growth, it´s beneficial for everyone to get feedback. But what is effective feedback? How do we get it and more importantly how do we measure it?
 
