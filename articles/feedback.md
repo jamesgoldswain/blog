@@ -7,11 +7,11 @@ This is a blog post about an attempt to answer these questions.
 
 ## Objectives
 
-As a consultant at [Readify](https://readify.net "readify web site"), on client gigs my tendency is to focus on the job at hand. This is beneficial to the them however, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
+As a consultant at [readify](https://readify.net "readify web site"), on client gigs my tendency is to focus on the job at hand. This is beneficial to the them however, from a professional development point of view, a lot of information on my personal performance is lost, unless I'm proactive about it.
 
 In order to establish how to gather feedback we need to first know what criteria we are trying to measure
 
-At readify we use the mechanism of ["retros"](https://en.wikipedia.org/wiki/Retrospective#Software_development "Wikipedia retro article") which are used to determine areas of strenghths as well as ones where we need to focus for improvement
+At readify we use the mechanism of ["retros"](https://en.wikipedia.org/wiki/Retrospective#Software_development "Wikipedia retro article") which are used to determine areas of strengths as well as ones where we need to focus for improvement
 
 Following a recent set of these, a friend recommended the book ["Measure what matters"](https://www.whatmatters.com/book "Measure what matters book site").
 
@@ -38,17 +38,17 @@ This consisted of a publicly accessible form with multiple questions, only two o
 
 The second would be a an exercise called a [Johari window](https://en.wikipedia.org/wiki/Johari_window "Wikipedia Johari window article").
 
-This was custom developed implementation of the Johari window exercise which I developed during my [professional development perk here at Readify](https://stackoverflow.com/jobs/companies/readify "Readify's Stack Overflow page").
+This was custom developed implementation of the Johari window exercise which I developed during my [professional development perk here at readify](https://stackoverflow.com/jobs/companies/readify "readify's Stack Overflow page").
 
-I wanted to maximise the response of both of these exercises, but prioritise the feedback form as I assumed it had less chance of bugs / failures as it hadn't had a lot of real-world testing. (I´ĺl detail how this worked in a follow up post)
+I wanted to maximise the response of both of these exercises, but prioritise the feedback form as I assumed it had less chance of bugs / failures as it hadn't had a lot of real-world testing. (I'll detail how this worked in a follow up post)
 
-During my final week of the engagement, I compiled and sent an email using my email adrees supplied by the client, this was to ensure that there would be no issue with my request going into spam folders, I then forwarded it to my consultancy work email for following up later
+During my final week of the engagement, I compiled and sent an email using my email address supplied by the client, this was to ensure that there would be no issue with my request going into spam folders, I then forwarded it to my consultancy work email for following up later
 
 The recipients of the email were 15 colleagues at the client site and varied between product owners, UX, testers and developers.
 
 I kept the contents of the email light and provided a link to the form highlighting the fact that it was anonymous, I also provided a quick explanation that I was also doing a Johari window exercise and would appreciate this being completed too.
 
-My expectation was that I wouldn't get a high rate of responses the first time round and would need an follow up email and that the responses to the Johari excecise would have a lower rate
+My expectation was that I wouldn't get a high rate of responses the first time round and would need an follow up email and that the responses to the Johari exercise would have a lower rate
 
 <hr/>
 
